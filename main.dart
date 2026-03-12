@@ -38,7 +38,7 @@ class Main extends StatelessWidget {
             Container(
               width: 200,
               height: 200,
-              color: Colors.yellow,
+              color: Colors.red,
             ),
             ElevatedButton(onPressed: (){
               Navigator.push(context, MaterialPageRoute(builder: (context)=>Home()));
