@@ -35,6 +35,11 @@ class Main extends StatelessWidget {
               height: 100,
               color: Colors.green,
             ),
+            Container(
+              width: 200,
+              height: 200,
+              color: Colors.yellow,
+            ),
             ElevatedButton(onPressed: (){
               Navigator.push(context, MaterialPageRoute(builder: (context)=>Home()));
             }, child: Text("go to page 2"))
