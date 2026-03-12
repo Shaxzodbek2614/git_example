@@ -11,7 +11,13 @@ class Home extends StatelessWidget {
         child: Container(
           width: 200,
           height: 200,
-          color: Colors.blue,
+          decoration: BoxDecoration(
+            color: Colors.blue,
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Text("Buni Ali yozyapti"),
+          alignment: Alignment.center,
+
         ),
       ),
     );
